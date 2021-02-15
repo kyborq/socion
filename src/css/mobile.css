@@ -1,0 +1,135 @@
+.mobile-only {
+    display: none;
+}
+
+@media(max-width: 932px) {
+    .page {
+        width: auto;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .header {
+        width: auto;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .narrow-collumn {
+        width: 250px;
+    }
+
+    .wide-collumn {
+        width: calc(100% - 250px);
+    }
+}
+
+@media(max-width: 768px) {
+    .page {
+        width: auto;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .header {
+        width: auto;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .narrow-collumn {
+        width: 250px;
+    }
+
+    .wide-collumn {
+        width: 486px;
+    }
+}
+
+@media(max-width: 767px) {
+    .page {
+        width: auto;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .header {
+        width: auto;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .narrow-collumn {
+        width: 100%;
+    }
+
+    .wide-collumn {
+        width: 100%;
+    }
+
+    .page-photo {
+        width: 100%;
+    }
+
+    .narrow-collumn.profile-side  {
+        position: relative;
+    }
+
+    .footer {
+        display: none;
+    }
+
+    .wide-collumn .page-block {
+        margin-left: 0;
+    }
+}
+
+@media(max-width: 425px) {
+    .page {
+        width: auto;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .page-photo {
+        width: 100%;
+    }
+
+    .header {
+        width: auto;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .nav-button {
+        display: none;
+    }
+
+    .narrow-collumn {
+        width: 100%;
+    }
+
+    .narrow-collumn.profile-side  {
+        position: relative;
+    }
+
+    .wide-collumn {
+        width: 100%;
+    }
+
+    .wide-collumn .page-block {
+        margin-left: 0;
+    }
+
+    .header .horizontal-form {
+        display: none;
+    }
+
+    .mobile-only {
+        display: block;
+    }
+
+    .footer {
+        display: none;
+    }
+}

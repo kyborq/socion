@@ -1,0 +1,194 @@
+/* page photo */
+.page-photo {
+    margin-bottom: 16px;
+    width: 216px;
+    height: 216px;
+    background-color: #F2F2F2;
+    border-radius: 8px;
+}
+
+.page-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 8px;
+}
+
+/* page action buttons */
+.page-action {
+    margin-top: 8px;
+    padding: 8px;
+    display: block;
+    background-color: #F2F2F2;
+    border-radius: 8px;
+    text-align: center;
+    color: #999999;
+    text-decoration: none;
+}
+
+.page-action:active {
+    background-color: #EFEFEF;
+}
+
+.page-action.doit {
+    background-color: #35ACF2;
+    color: white;
+}
+
+.page-action.doit:active {
+    background-color: #319DDC;
+    color: white;
+}
+
+.page-action.nooo {
+    background-color: #FF6B6B;
+    color: white;
+}
+
+.page-action.nooo:active {
+    background-color: #E86262;
+    color: white;
+}
+
+/* page info */
+.page-name {
+    margin: 0;
+    padding-bottom: 8px;
+    font-size: 24px;
+    font-weight: normal;
+    border-bottom: 1px solid #F2F2F2;
+}
+
+/* page info table */
+.short-info {
+    /* margin-top: 16px; */
+}
+
+.info-row {
+    margin-top: 16px;
+    overflow: hidden;
+}
+
+.label {
+    width: 30%;
+    font-weight: bold;
+    float: left;
+}
+
+.labeled {
+    width: 70%;
+    float: left;
+}
+
+/* post write */
+.page-block.write-post-block {
+    overflow: hidden;
+}
+
+.write-post-block .profile-image {
+    position: absolute;
+}
+
+.page-block.post-block {
+
+}
+
+.post-info {
+    margin-bottom: 16px;
+    overflow: hidden;
+}
+
+.post-author-link {
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    margin-top: 15px;
+    float: left;
+    display: block;
+    margin-left: 16px;
+}
+
+.post-content {
+    line-height: 21px;
+}
+
+.post-actions {
+    padding-top: 16px;
+    margin-top: 16px;
+    overflow: hidden;
+    border-top: 1px solid #F2F2F2;
+}
+
+.post-button {
+    padding: 8px;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    background: #F2F2F2;
+    border-radius: 8px;
+    display: block;
+    float: left;
+    color: #999999;
+    cursor: pointer;
+    margin-right: 8px;
+}
+
+.post-button:active {
+    background: #EFEFEF;
+}
+
+.post-button.liked {
+    background: #35ACF2;
+    color: white;
+}
+
+.post-button.liked:active {
+    background: #319DDC;
+}
+
+.profile-side {
+    position: fixed;
+}
+
+.notcompl {
+    color: #D8D8D8;
+    font-style: italic;
+}
+
+.search-user-row {
+    margin-top: 16px;
+    overflow: hidden;
+}
+
+.search-user-photo {
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+    background: #F2F2F2;
+    float: left;
+}
+
+.search-user-photo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.search-user-info {
+    margin-top: 18px;
+    margin-left: 8px;
+    float: left;
+}
+
+.search-user-title {
+    margin-bottom: 4px;
+}
+
+.search-user-title a {
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,23 @@
+Структура сойта социальной сети
+
+socion.net
+| css/
+| includes/
+| | connection.php
+| | functions.php
+| | header.php
+| | footer.php
+| user/
+| | login.php
+| | register.php
+| | edit.php
+| | delete.php
+| wall/
+| | post.php
+| | delete.php
+| | like.php
+| | wall.php
+| index.php
+| profile.php
+| search.php
+| pm.php

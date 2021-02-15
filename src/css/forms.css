@@ -1,0 +1,111 @@
+/* ----------------------- FORMS */
+/* horizontal form in header */
+.header .horizontal-form {
+    margin-top: 8px;
+    float: right;
+}
+
+.horizontal-form .field, .horizontal-form .button {
+    float: left;
+    margin-left: 8px;
+}
+
+.horizontal-form .field {
+    width: 160px;
+}
+
+.horizontal-form .button {
+    width: 100px;
+}
+
+/* basic vertical form */
+.verical-form .field, .verical-form .button {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.verical-form .field {
+    margin-bottom: 8px;
+}
+
+/* post write form */
+.write-post-form {
+    margin-left: calc(48px + 16px);
+}
+
+.write-post-form .field {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+
+.write-post-form .button {
+    border-radius: 8px;
+}
+
+/* page edit form */
+.edit-form .field {
+    font-family: sans-serif;
+    border-radius: 8px;
+    width: 100%;
+}
+
+/* search form */
+.search-form .field {
+    width: 100%;
+    margin-bottom: 8px;
+    border-radius: 8px;
+}
+
+.search-form .button {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* standart inputs */
+.field {
+    padding: 8px;
+    border: 1px solid #E5E5E5;
+    border-radius: 24px;
+}
+
+.field:focus {
+    border: 1px solid #35ACF2;
+}
+
+.text-field {
+    resize: vertical;
+    min-height: 48px;
+    max-height: 150px;
+}
+
+.button {
+    padding: 8px;
+    color: white;
+    background: #35ACF2;
+    border: 1px solid #35ACF2;
+    border-radius: 24px;
+    cursor: pointer;
+}
+
+.button:active {
+    background: #319DDC;
+    border: 1px solid #319DDC;
+}
+
+.message-form {
+    width: 100%;
+    padding-bottom: 16px;
+    margin-bottom: 16px;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.message-form .field {
+    margin-bottom: 8px;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.message-form .button {
+    border-radius: 8px;
+}
